@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+<style>
+
+
+body {
+            font-family: Arial, sans-serif;
+        background-image: url('https://w0.peakpx.com/wallpaper/123/723/HD-wallpaper-world-map-world-countries-abstract-continents-map.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        margin: 0;
+        padding: 0;
+        }
+
+         h1 {
+        color: #333;
+        font-size: 2.5em;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+        option {
+            color: #333;
+        }
+
+        div.container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: rgb(74, 193, 211, 0.7);
+
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+ border-radius: 5px;
+
+
+           
+        }
+select:hover{
+background-color:yellow;
+ border: 2px solid #333;
+           }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Dropdowns Example</h1>
+        <label for="country">Select country:</label>
+        <select id="country" name="country">
+            <option value="">Select</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+ <option value="india">India</option>
+
+        </select>
+        <label for="city">Select City :</label>
+        <select id="city" name="city">
+            <option value="">Select a country first</option>
+        </select>
+    </div>
+    
+</body>
+</html>
